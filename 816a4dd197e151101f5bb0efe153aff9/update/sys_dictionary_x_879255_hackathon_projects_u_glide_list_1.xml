@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="expense" table="x_879255_hackathon_projects">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_glide_list_1" table="x_879255_hackathon_projects">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
+        <calculation/>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Expense in Hours</column_label>
+        <column_label>Available Users</column_label>
         <comments/>
         <create_roles/>
-        <default_value>0</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,20 +22,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>expense</element>
+        <element>u_glide_list_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">float</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>40</max_length>
+        <internal_type display_value="">glide_list</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
         <name>x_879255_hackathon_projects</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-25 08:22:02</sys_created_on>
-        <sys_id>1e8d4511972551101f5bb0efe153af29</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Expense in Hours</sys_name>
+        <sys_created_on>2022-08-25 10:51:19</sys_created_on>
+        <sys_id>0140f5d597a551101f5bb0efe153af92</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Available Users</sys_name>
         <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
-        <sys_update_name>sys_dictionary_x_879255_hackathon_projects_expense</sys_update_name>
+        <sys_update_name>sys_dictionary_x_879255_hackathon_projects_u_glide_list_1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-25 11:01:22</sys_updated_on>
+        <sys_updated_on>2022-08-25 11:16:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

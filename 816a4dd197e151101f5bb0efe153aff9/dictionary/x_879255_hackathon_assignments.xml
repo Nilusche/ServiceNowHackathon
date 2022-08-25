@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Scrum Task" max_length="40" name="x_879255_hackathon_assignments" type="collection">
+    <element label="Scrum Task" max_length="40" name="x_879255_hackathon_assignments" sizeclass="3" type="collection">
         <element label="Assigned to" mandatory="true" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="Bug" max_length="32" name="bug" reference="x_879255_hackathon_bugs" type="reference"/>
         <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
         <element label="Due date" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
+        <element default="0" label="Expense" mandatory="true" max_length="40" name="expense" type="float"/>
         <element label="name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_879255_hackathon_assignments" type="reference"/>
         <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="status" max_length="40" name="status" type="choice">
             <choice>
@@ -17,6 +19,9 @@
             <element name="bug"/>
         </index>
         <index name="index2">
+            <element name="project"/>
+        </index>
+        <index name="index3">
             <element name="assigned_to"/>
         </index>
     </element>
