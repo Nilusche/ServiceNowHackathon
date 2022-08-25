@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size>6</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">8aba67d197ad51101f5bb0efe153afe9</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:46:19</sys_created_on>
+        <sys_id>8aba67d197ad51101f5bb0efe153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sp_column_8aba67d197ad51101f5bb0efe153afed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 19:46:19</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sp_column_8aba67d197ad51101f5bb0efe153afed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>6</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">8aba67d197ad51101f5bb0efe153afe9</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-25 19:46:19</sys_created_on><sys_id>8aba67d197ad51101f5bb0efe153afed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package><sys_policy/><sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope><sys_update_name>sp_column_8aba67d197ad51101f5bb0efe153afed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-25 19:46:19</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-366201807</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>28a35bd9972d51101f5bb0efe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:46:19</sys_created_on>
+        <sys_id>82ba67d197ad51101f5bb0efe153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d68a89990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 19:46:19</sys_updated_on>
+        <type>Column</type>
+        <update_guid>caba67d1a0ad511088067d34b49fcdee</update_guid>
+        <update_guid_history>caba67d1a0ad511088067d34b49fcdee:-366201807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">eccaa7d197ad51101f5bb0efe153afb9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:46:30</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>7e65f7f5e3974607837d931d42b15ad1</sys_id>
+        <sys_metadata>8aba67d197ad51101f5bb0efe153afed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_scope_delete display_value="">46a4f9af8f0048e79645e478abb4f429</sys_scope_delete>
+        <sys_update_name>sp_column_8aba67d197ad51101f5bb0efe153afed</sys_update_name>
+        <sys_update_version display_value="sp_column_8aba67d197ad51101f5bb0efe153afed">82ba67d197ad51101f5bb0efe153afef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 19:46:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>index - Container 3</name>
+        <order>3</order>
+        <sp_page display_value="mb_index">df5f17d5976d51101f5bb0efe153af86</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:55:39</sys_created_on>
+        <sys_id>3adc2b5597ad51101f5bb0efe153afdf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>index - Container 3</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sp_container_3adc2b5597ad51101f5bb0efe153afdf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 19:56:12</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sp_container_3adc2b5597ad51101f5bb0efe153afdf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>index - Container 3</name><order>3</order><sp_page display_value="mb_index">df5f17d5976d51101f5bb0efe153af86</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-25 19:55:39</sys_created_on><sys_id>3adc2b5597ad51101f5bb0efe153afdf</sys_id><sys_mod_count>2</sys_mod_count><sys_name>index - Container 3</sys_name><sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package><sys_policy/><sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope><sys_update_name>sp_container_3adc2b5597ad51101f5bb0efe153afdf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-25 19:56:12</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>879620807</payload_hash>
+        <record_name>index - Container 3</record_name>
+        <reverted_from/>
+        <source>28a35bd9972d51101f5bb0efe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:56:12</sys_created_on>
+        <sys_id>7afceb5597ad51101f5bb0efe153af11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d69393940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 19:56:12</sys_updated_on>
+        <type>Container</type>
+        <update_guid>72fceb554cad5110cddfe9d2f8deb311</update_guid>
+        <update_guid_history>72fceb554cad5110cddfe9d2f8deb311:879620807,c6fcab5587ad5110bbd1ad31f0708ae3:743810950,7edc2b551fad511002c6efc81f600be0:608001093</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="index - Container 3">5bfceb5597ad51101f5bb0efe153af60</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:56:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>7c29819d000341609ccb6cd74573f490</sys_id>
+        <sys_metadata>3adc2b5597ad51101f5bb0efe153afdf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>index - Container 3</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_scope_delete display_value="">46a4f9af8f0048e79645e478abb4f429</sys_scope_delete>
+        <sys_update_name>sp_container_3adc2b5597ad51101f5bb0efe153afdf</sys_update_name>
+        <sys_update_version display_value="sp_container_3adc2b5597ad51101f5bb0efe153afdf">7afceb5597ad51101f5bb0efe153af11</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 19:56:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

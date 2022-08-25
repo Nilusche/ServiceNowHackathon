@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spUtil, $rootScope) {
+  /* widget controller */
+  var c = this;
+	c.submitting = false;
+	c.submit = function(){
+		if(c.data.newBug.name == "" ||
+			c.data.newBug.short_desc == "" ||
+			 c.data.newBug.topic == "" ||
+			 c.data.newBug.description == "" ||
+			 c.data.newBug.status == "" ||
+			  c.data.newBug.priority == "" ||
+			 c.data.newBug.project == "" 
+			){
+			 spUtil.addErrorMessage("All the fields must be filled");
+			 }
+	
+		c.data.action = "createBug";
+		c.submitting = true;
+		c.server.update().then(function(){
+			c.submitting = false;
+			spUtil.addInfoMessage(c.data.message);
+		})
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>create_bug</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Create Bug</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.newBug = {
+		name:"",
+		short_desc:"",
+		topic: "",
+		description: "",
+		status: "",
+		priority: "",
+		project: ""
+	}
+	
+	data.items = new global.PortalUtils().getProjects();
+  
+	//Create new bug
+	if(input && input.action =="createBug"){
+		new global.PortalUtils().createBug(input.newBug);
+		data.message = "A Bug has been created";
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 20:17:10</sys_created_on>
+        <sys_id>86c13b9997ad51101f5bb0efe153afb3</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name>Create Bug</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sp_widget_86c13b9997ad51101f5bb0efe153afb3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 21:52:56</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-danger mt-4">
+  <div class="panel-heading">
+       <h4 class="panel-title">
+         Submit a Bug
+    </h4>
+  </div>
+  <div class="panel-body">
+    <form>
+      <div class="form-group">
+        <label for="bug_name">Name*</label>
+        <input type="text" class="form-control" id="bug_name" 
+               ng-model="data.newBug.name" placeholder=""/>
+      </div>
+      <div class="form-group">
+        <label for="bug_short_desc">Short Description*</label>
+        <input type="text" class="form-control" id="bug_short_desc"
+               ng-model="data.newBug.short_desc" placeholder=""/>
+      </div>
+      <div class="form-group">
+        <label for="bug_topic">Topic*</label>
+        <input type="text" class="form-control" id="bug_topic" 
+               ng-model="data.newBug.topic" placeholder="Styling"/>
+      </div>
+      <div class="form-group">
+        <label for="bug_desc">Description*</label>
+       	<textarea id="bug_desc" class="form-control" 
+                  ng-model="data.newBug.description" >
+        </textarea>
+      </div>
+      <div class="form-group">
+        <label for="bug_status">Status*</label>
+        <select id="bug_status" class="form-control" 
+                ng-model="data.newBug.status">
+          <option value="1" selected>unresolved</option>
+          <option value="2">testing</option>
+          <option value="3">resolved</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="bug_prio">Priority*</label>
+        <select id="bug_prio" class="form-control" 
+                ng-model="data.newBug.priority">
+          <option value="1" >1 - Critical</option>
+          <option value="2">2 - High</option>
+          <option value="3" >3 - Moderate</option>
+          <option value="4" selected>4 - Low</option>
+          <option value="5">5 - Planning</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="bug_project">Project*</label>
+        <select id="bug_prio" class="form-control" 
+                ng-model="data.newBug.project"
+                >
+          <option ng-repeat="p in data.items">{{p.sys_id}}.{{p.number}} </option>
+        </select>
+      </div>
+    </form>
+  </div>
+  
+  <div class="panel-footer">
+    <button class="btn btn-danger" ng-click="c.submit()" ng-disabled="c.submitting">
+      Submit
+    </button>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

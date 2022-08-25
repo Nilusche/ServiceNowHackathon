@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>th-list</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">a4502bd5976d51101f5bb0efe153af67</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:01:30</sys_created_on>
+        <sys_id>9970e719976d51101f5bb0efe153afd1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>View my Projects</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sp_instance_link_9970e719976d51101f5bb0efe153afd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 19:17:29</sys_updated_on>
+        <title>View my Projects</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=9970e719976d51101f5bb0efe153afd1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sp_instance_link_9970e719976d51101f5bb0efe153afd1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;th-list&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;a4502bd5976d51101f5bb0efe153af67&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-25 19:01:30&lt;/sys_created_on&gt;&lt;sys_id&gt;9970e719976d51101f5bb0efe153afd1&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;View my Projects&lt;/sys_name&gt;&lt;sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon"&gt;816a4dd197e151101f5bb0efe153aff9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Projektmanagement Tool"&gt;816a4dd197e151101f5bb0efe153aff9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_9970e719976d51101f5bb0efe153afd1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-25 19:17:29&lt;/sys_updated_on&gt;&lt;title&gt;View my Projects&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9970e719976d51101f5bb0efe153afd1"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-976376938</payload_hash>
+        <record_name>View my Projects</record_name>
+        <reverted_from/>
+        <source>28a35bd9972d51101f5bb0efe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:17:29</sys_created_on>
+        <sys_id>2b14e71d976d51101f5bb0efe153af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d67021db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 19:17:29</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>2314e71d016d5110415d35a0899a6d6c</update_guid>
+        <update_guid_history>2314e71d016d5110415d35a0899a6d6c:-976376938,d833e7d9316d51107857b244d8f5e70a:-405653097,d123a7d9056d51108d4bebba82c1426e:-842165212,531367d98d6d5110ca12456acc95a4a3:-163432490,5b1367d9046d51107b00f28f0f660c9a:-842165212,2d12a399f46d51103270cd0fee3b5e0d:-163432490,1170e719b46d5110a01d1491873218d3:-1371205237</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="View my Projects">ac24a71d976d51101f5bb0efe153af04</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:17:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>1b681b09cf1340e887731c2a48c44810</sys_id>
+        <sys_metadata>9970e719976d51101f5bb0efe153afd1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View my Projects</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_scope_delete display_value="">46a4f9af8f0048e79645e478abb4f429</sys_scope_delete>
+        <sys_update_name>sp_instance_link_9970e719976d51101f5bb0efe153afd1</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_9970e719976d51101f5bb0efe153afd1">2b14e71d976d51101f5bb0efe153af6c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 19:17:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
