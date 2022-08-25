@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Assignments" max_length="40" name="x_879255_hackathon_assignments" type="collection">
+    <element label="Sprints" max_length="40" name="x_879255_hackathon_assignments" type="collection">
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="Bug" max_length="32" name="bug" reference="x_879255_hackathon_bugs" type="reference"/>
-        <element label="Due date" max_length="40" name="due_date" type="glide_date"/>
-        <element label="name" max_length="40" name="name" type="string"/>
-        <element choice="1" label="status" max_length="40" name="status" type="choice">
-            <choice/>
+        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
+        <element label="Due date" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
+        <element label="name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="in progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="resolved" sequence="2" value="3"/>
+            </choice>
         </element>
         <index name="index">
             <element name="bug"/>

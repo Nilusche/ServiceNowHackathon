@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -11,13 +11,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>status</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>1</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -56,12 +56,12 @@
         <sys_id>58fe8991972551101f5bb0efe153af4d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>status</sys_name>
-        <sys_package display_value="HackathonBugtracker" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
         <sys_policy/>
-        <sys_scope display_value="HackathonBugtracker">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
         <sys_update_name>sys_dictionary_x_879255_hackathon_assignments_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-25 08:27:01</sys_updated_on>
+        <sys_updated_on>2022-08-25 09:51:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
