@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Bugs">95db45dd97e151101f5bb0efe153af5e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Bugs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_879255_hackathon_bugs</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_879255_hackathon.bugs_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 08:18:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a05dcd11972551101f5bb0efe153af11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bugs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HackathonBugtracker" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HackathonBugtracker">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sys_app_module_a05dcd11972551101f5bb0efe153af11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 08:18:38</sys_updated_on>
+        <timeline_page/>
+        <title>Bugs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_app_module_a05dcd11972551101f5bb0efe153af11</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Bugs">95db45dd97e151101f5bb0efe153af5e</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Bugs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_879255_hackathon_bugs</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_879255_hackathon.bugs_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-25 08:18:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a05dcd11972551101f5bb0efe153af11</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bugs</sys_name><sys_overrides/><sys_package display_value="HackathonBugtracker" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package><sys_policy/><sys_scope display_value="HackathonBugtracker">816a4dd197e151101f5bb0efe153aff9</sys_scope><sys_update_name>sys_app_module_a05dcd11972551101f5bb0efe153af11</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-25 08:18:38</sys_updated_on><timeline_page/><title>Bugs</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>251512205</payload_hash>
+        <record_name>Bugs</record_name>
+        <reverted_from/>
+        <source>496acd5d97e151101f5bb0efe153af3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 08:18:38</sys_created_on>
+        <sys_id>605dcd11972551101f5bb0efe153af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d414f0320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 08:18:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a85dcd1124255110b363f7db07819d12</update_guid>
+        <update_guid_history>a85dcd1124255110b363f7db07819d12:251512205</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bugs">3211dd15972551101f5bb0efe153af48</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 08:35:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3440d9ba682941888f4a8af78c39d840</sys_id>
+        <sys_metadata>a05dcd11972551101f5bb0efe153af11</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bugs</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_scope_delete display_value="">46a4f9af8f0048e79645e478abb4f429</sys_scope_delete>
+        <sys_update_name>sys_app_module_a05dcd11972551101f5bb0efe153af11</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a05dcd11972551101f5bb0efe153af11">605dcd11972551101f5bb0efe153af13</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 08:35:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

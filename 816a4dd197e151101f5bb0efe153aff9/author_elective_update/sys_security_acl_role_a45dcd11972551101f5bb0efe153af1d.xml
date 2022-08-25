@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 08:18:38</sys_created_on>
+        <sys_id>a45dcd11972551101f5bb0efe153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_879255_hackathon_bugs.x_879255_hackathon.bugs_user</sys_name>
+        <sys_package display_value="HackathonBugtracker" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HackathonBugtracker">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_security_acl display_value="x_879255_hackathon_bugs">ec5dcd11972551101f5bb0efe153af1a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a45dcd11972551101f5bb0efe153af1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 08:18:38</sys_updated_on>
+        <sys_user_role display_value="x_879255_hackathon.bugs_user" name="x_879255_hackathon.bugs_user">55db45dd97e151101f5bb0efe153af56</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_security_acl_role_a45dcd11972551101f5bb0efe153af1d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-25 08:18:38</sys_created_on><sys_id>a45dcd11972551101f5bb0efe153af1d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_879255_hackathon_bugs.x_879255_hackathon.bugs_user</sys_name><sys_package display_value="HackathonBugtracker" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package><sys_policy/><sys_scope display_value="HackathonBugtracker">816a4dd197e151101f5bb0efe153aff9</sys_scope><sys_security_acl display_value="x_879255_hackathon_bugs">ec5dcd11972551101f5bb0efe153af1a</sys_security_acl><sys_update_name>sys_security_acl_role_a45dcd11972551101f5bb0efe153af1d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-25 08:18:38</sys_updated_on><sys_user_role display_value="x_879255_hackathon.bugs_user" name="x_879255_hackathon.bugs_user">55db45dd97e151101f5bb0efe153af56</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-2041768935</payload_hash>
+        <record_name>x_879255_hackathon_bugs.x_879255_hackathon.bugs_user</record_name>
+        <reverted_from/>
+        <source>496acd5d97e151101f5bb0efe153af3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 08:18:38</sys_created_on>
+        <sys_id>285dcd11972551101f5bb0efe153af1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d414f0e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 08:18:38</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>605dcd114a255110a6bf78cce87b1a1f</update_guid>
+        <update_guid_history>605dcd114a255110a6bf78cce87b1a1f:-2041768935</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_879255_hackathon_bugs.x_879255_hackathon.bugs_user">74e7d51d972551101f5bb0efe153af8d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 09:04:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3f5053c84bf84884910d0a8c1b642604</sys_id>
+        <sys_metadata>a45dcd11972551101f5bb0efe153af1d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_879255_hackathon_bugs.x_879255_hackathon.bugs_user</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_parent display_value="">ec5dcd11972551101f5bb0efe153af1a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_scope_delete display_value="">46a4f9af8f0048e79645e478abb4f429</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a45dcd11972551101f5bb0efe153af1d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a45dcd11972551101f5bb0efe153af1d">285dcd11972551101f5bb0efe153af1f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 09:04:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

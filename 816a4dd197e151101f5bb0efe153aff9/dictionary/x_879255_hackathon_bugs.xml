@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Bugs" max_length="40" name="x_879255_hackathon_bugs" type="collection">
-        <element label="description" max_length="40" name="description" type="string"/>
-        <element label="name" max_length="40" name="name" type="string"/>
-        <element choice="1" label="priority" max_length="40" name="priority" type="choice">
-            <choice/>
+    <element audit="true" extends="task" label="Bugs" max_length="40" name="x_879255_hackathon_bugs" type="collection">
+        <element label="Bug description" max_length="255" name="bug_description" type="string_full_utf8"/>
+        <element label="Bug name" mandatory="true" max_length="40" name="bug_name" type="string"/>
+        <element choice="3" default="1" label="Bug priority" mandatory="true" max_length="40" name="bug_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="3"/>
+            </choice>
         </element>
-        <element choice="1" label="status" max_length="40" name="status" type="choice">
-            <choice/>
+        <element label="Bug project" max_length="32" name="bug_project" reference="x_879255_hackathon_projects" type="reference"/>
+        <element choice="1" label="Bug status" mandatory="true" max_length="40" name="bug_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="unresolved" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="testing" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="resolved" sequence="2" value="3"/>
+            </choice>
         </element>
-        <element label="topic" max_length="40" name="topic" type="string"/>
+        <element label="Bug topic" mandatory="true" max_length="40" name="bug_topic" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_879255_hackathon_projects" type="reference"/>
     </element>
 </database>
