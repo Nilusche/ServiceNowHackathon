@@ -32,23 +32,22 @@
 	current.setValue("status", 2);
 	
 	var expenses = new GlideAggregate('x_879255_hackathon_assignments');
-	expenses.addQuery("project.sys_id" , current.project.sys_id);
+	expenses.addQuery("project" , current.project);
 	expenses.addAggregate("SUM","expense");
+	expenses.setGroup(false);
 	expenses.query( );
 	var sum = -1;
+
 	while(expenses.next()){
 		sum = parseFloat(expenses.getAggregate('SUM', 'expense'));
 	}
 
-	if(sum == -1){
-		current.setAbortAction(true);
-	}
+	gs.info(sum);
 
 	var project = new GlideRecord('x_879255_hackathon_projects');
 	project.get(current.project.sys_id);
 	project.setValue("expense",sum);
 	project.update();
-	
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -57,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4c477e5197e951101f5bb0efe153af4e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Update expenses</sys_name>
         <sys_overrides/>
         <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
@@ -65,9 +64,9 @@
         <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
         <sys_update_name>sys_script_4c477e5197e951101f5bb0efe153af4e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-25 16:49:50</sys_updated_on>
+        <sys_updated_on>2022-08-25 18:47:27</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=4c477e5197e951101f5bb0efe153af4e"/>
 </record_update>
