@@ -6,7 +6,7 @@
         <element label="Due date" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
         <element default="0" label="Expense" mandatory="true" max_length="40" name="expense" type="float"/>
         <element label="name" mandatory="true" max_length="40" name="name" type="string"/>
-        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_879255_hackathon_assignments" type="reference"/>
+        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_879255_hackathon_projects" type="reference"/>
         <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="status" max_length="40" name="status" type="choice">
             <choice>
