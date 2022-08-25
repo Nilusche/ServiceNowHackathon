@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Daily Scrums" max_length="40" name="x_879255_hackathon_daily_scrums" type="collection">
-        <element label="description" max_length="40" name="description" type="string"/>
+    <element audit="true" label="Daily Scrums" max_length="40" name="x_879255_hackathon_daily_scrums" sizeclass="0" type="collection">
+        <element label="Meeting notes" max_length="4000" name="description" type="journal_input"/>
         <element label="impediment" max_length="40" name="impediment" type="string"/>
+        <element label="Project" max_length="32" name="project" read_only="true" reference="x_879255_hackathon_projects" type="reference"/>
         <element label="Scrum master" max_length="32" name="scrum_master" reference="sys_user" type="reference"/>
+        <element label="When starting" max_length="40" name="when_starting" read_only="true" type="glide_date"/>
         <index name="index">
             <element name="scrum_master"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
         </index>
     </element>
 </database>

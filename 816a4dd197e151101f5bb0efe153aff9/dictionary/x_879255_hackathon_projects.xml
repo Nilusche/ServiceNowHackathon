@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Projects" max_length="40" name="x_879255_hackathon_projects" sizeclass="2" type="collection">
+        <element label="dailyscrum" max_length="4000" name="dailyscrum" reference="x_879255_hackathon_daily_scrums" type="glide_list"/>
         <element label="deadline" mandatory="true" max_length="40" name="deadline" type="glide_date"/>
-        <element default="0" label="Expense in Hours" mandatory="true" max_length="40" name="expense" type="float"/>
+        <element default="0" label="Expense in Hours" max_length="40" name="expense" read_only="true" type="float"/>
         <element label="name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Participants" max_length="4000" name="participants" reference="sys_user" reference_qual="javascript:&quot;sys_idIN&quot;+global.getRoledUsers(&quot;x_879255_hackathon.developer&quot;, &quot;x_879255_hackathon.manager&quot;, &quot;x_879255_hackathon.scrum_master&quot;).join(&quot;,&quot;)" type="glide_list" use_reference_qualifier="advanced"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Project leader" mandatory="true" max_length="32" name="project_leader" reference="sys_user" type="reference" use_dynamic_default="true"/>

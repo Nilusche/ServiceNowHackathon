@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="bug_priority" label="Bug priority" language="en" table="x_879255_hackathon_bugs">
+    <sys_documentation element="name" label="Name" language="en" table="x_879255_hackathon_bugs">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>bug_priority</element>
+            <element>name</element>
             <help/>
             <hint/>
-            <label>Bug priority</label>
+            <label>Name</label>
             <language>en</language>
             <name>x_879255_hackathon_bugs</name>
-            <plural>Bug priorities</plural>
+            <plural>Names</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-25 09:10:50</sys_created_on>
-            <sys_id>9149159d972551101f5bb0efe153af1b</sys_id>
+            <sys_created_on>2022-08-25 14:44:37</sys_created_on>
+            <sys_id>22a5661197a951101f5bb0efe153af63</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Bug priority</sys_name>
+            <sys_name>Name</sys_name>
             <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
             <sys_policy/>
             <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
-            <sys_update_name>sys_documentation_x_879255_hackathon_bugs_bug_priority_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_879255_hackathon_bugs_name_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-25 09:10:50</sys_updated_on>
+            <sys_updated_on>2022-08-25 14:44:37</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

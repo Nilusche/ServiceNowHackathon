@@ -17,14 +17,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_879255_hackathon.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-25 10:25:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>610ae91197a551101f5bb0efe153af4a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>All Scrum Tasks</sys_name>
         <sys_overrides/>
         <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
         <sys_update_name>sys_app_module_610ae91197a551101f5bb0efe153af4a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-25 10:26:21</sys_updated_on>
+        <sys_updated_on>2022-08-25 13:30:07</sys_updated_on>
         <timeline_page/>
         <title>All Scrum Tasks</title>
         <uncancelable>false</uncancelable>
