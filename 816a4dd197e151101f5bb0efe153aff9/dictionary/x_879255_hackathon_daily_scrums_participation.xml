@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Daily Scrums Participation" max_length="40" name="x_879255_hackathon_daily_scrums_participation" type="collection">
+        <element label="Daily Scrums ID" max_length="32" name="daily_scrums_id" reference="x_879255_hackathon_daily_scrums" type="reference"/>
+        <element label="Participants" max_length="32" name="participants" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="daily_scrums_id"/>
+        </index>
+        <index name="index2">
+            <element name="participants"/>
+        </index>
+    </element>
+</database>
