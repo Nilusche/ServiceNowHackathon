@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Projects" max_length="40" name="x_879255_hackathon_projects" type="collection">
+        <element label="assignedTo" max_length="32" name="assignedto" reference="sys_user" type="reference"/>
+        <element label="deadline" max_length="40" name="deadline" type="glide_date"/>
+        <element label="expense" max_length="40" name="expense" type="float"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="assignedto"/>
+        </index>
+    </element>
+</database>

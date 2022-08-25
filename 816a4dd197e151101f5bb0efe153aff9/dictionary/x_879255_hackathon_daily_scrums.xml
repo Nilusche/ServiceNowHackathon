@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Daily Scrums" max_length="40" name="x_879255_hackathon_daily_scrums" type="collection">
+        <element label="description" max_length="40" name="description" type="string"/>
+        <element label="impediment" max_length="40" name="impediment" type="string"/>
+        <element label="Scrum master" max_length="32" name="scrum_master" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="scrum_master"/>
+        </index>
+    </element>
+</database>

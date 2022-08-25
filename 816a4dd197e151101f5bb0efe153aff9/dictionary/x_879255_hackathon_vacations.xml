@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Vacations" max_length="40" name="x_879255_hackathon_vacations" type="collection">
+        <element label="Vacant" max_length="32" name="vacant" reference="sys_user" type="reference"/>
+        <element label="Vacation date" max_length="40" name="vacation_date" type="glide_date"/>
+        <index name="index">
+            <element name="vacant"/>
+        </index>
+    </element>
+</database>

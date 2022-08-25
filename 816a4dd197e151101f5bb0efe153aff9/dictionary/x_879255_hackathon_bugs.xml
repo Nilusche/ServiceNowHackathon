@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bugs" max_length="40" name="x_879255_hackathon_bugs" type="collection">
+        <element label="description" max_length="40" name="description" type="string"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="priority" max_length="40" name="priority" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="topic" max_length="40" name="topic" type="string"/>
+    </element>
+</database>

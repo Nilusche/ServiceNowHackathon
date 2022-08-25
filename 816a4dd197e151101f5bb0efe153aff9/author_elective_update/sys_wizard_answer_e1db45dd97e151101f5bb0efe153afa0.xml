@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Bugs</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Bugs</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">55464cb521120110a866589604c20d56</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 08:12:09</sys_created_on>
+        <sys_id>e1db45dd97e151101f5bb0efe153afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bugs</sys_name>
+        <sys_package display_value="HackathonBugtracker" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HackathonBugtracker">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sys_wizard_answer_e1db45dd97e151101f5bb0efe153afa0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 08:12:09</sys_updated_on>
+        <table/>
+        <target_url>x_879255_hackathon_bugs.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HackathonBugtracker">816a4dd197e151101f5bb0efe153aff9</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_wizard_answer_e1db45dd97e151101f5bb0efe153afa0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Bugs</answer><button_label/><dependent_value/><element/><name>Bugs</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">55464cb521120110a866589604c20d56</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-25 08:12:09</sys_created_on><sys_id>e1db45dd97e151101f5bb0efe153afa0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bugs</sys_name><sys_package display_value="HackathonBugtracker" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package><sys_policy/><sys_scope display_value="HackathonBugtracker">816a4dd197e151101f5bb0efe153aff9</sys_scope><sys_update_name>sys_wizard_answer_e1db45dd97e151101f5bb0efe153afa0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-25 08:12:09</sys_updated_on><table/><target_url>x_879255_hackathon_bugs.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1242729043</payload_hash>
+        <record_name>Bugs</record_name>
+        <reverted_from/>
+        <source>0520d5d3971111101f5bb0efe153af45</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-08-19 03:23:06</sys_created_on>
+        <sys_id>b63c0ddd97e151101f5bb0efe153af8c</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>182b42035900000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>763c0ddde0e15110022f1bed362e3c8c</update_guid>
+        <update_guid_history>763c0ddde0e15110022f1bed362e3c8c:1242729043</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 08:13:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>1c276fcda8844537a63f4f00080e1da9</sys_id>
+        <sys_metadata>e1db45dd97e151101f5bb0efe153afa0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bugs</sys_name>
+        <sys_package display_value="HackathonBugtracker" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_parent display_value="Task">55464cb521120110a866589604c20d56</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HackathonBugtracker">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_scope_delete display_value="">46a4f9af8f0048e79645e478abb4f429</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_e1db45dd97e151101f5bb0efe153afa0</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_e1db45dd97e151101f5bb0efe153afa0">b63c0ddd97e151101f5bb0efe153af8c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 08:13:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
