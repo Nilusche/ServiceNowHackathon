@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ProjectManagement">5eef9155976551101f5bb0efe153af79</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All Scrum Tasks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_879255_hackathon_assignments</name>
+        <order>900</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 10:20:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b119a1dd976551101f5bb0efe153af93</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All Scrum Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sys_app_module_b119a1dd976551101f5bb0efe153af93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 10:23:14</sys_updated_on>
+        <timeline_page/>
+        <title>All Scrum Tasks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_app_module_b119a1dd976551101f5bb0efe153af93</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ProjectManagement">5eef9155976551101f5bb0efe153af79</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All Scrum Tasks</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_879255_hackathon_assignments</name><order>900</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-25 10:20:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b119a1dd976551101f5bb0efe153af93</sys_id><sys_mod_count>3</sys_mod_count><sys_name>All Scrum Tasks</sys_name><sys_overrides/><sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package><sys_policy/><sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope><sys_update_name>sys_app_module_b119a1dd976551101f5bb0efe153af93</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-25 10:23:14</sys_updated_on><timeline_page/><title>All Scrum Tasks</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-2132902471</payload_hash>
+        <record_name>All Scrum Tasks</record_name>
+        <reverted_from/>
+        <source>64305115972551101f5bb0efe153af58</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 10:23:14</sys_created_on>
+        <sys_id>fdd9a91197a551101f5bb0efe153af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d48705f90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 10:23:14</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f5d9a911daa55110e2f16ec41c26d748</update_guid>
+        <update_guid_history>f5d9a911daa55110e2f16ec41c26d748:-2132902471,c699a51149a5511070d5239a24b615fe:-1674327557,1159e111d6a5511010cdc2652cb89237:38042063,14392ddda4655110ef8e4eeb6ff60c08:-185204580</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All Scrum Tasks">580aa91197a551101f5bb0efe153afed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 10:23:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>11bf315665e94bc09d06380163e76e44</sys_id>
+        <sys_metadata>b119a1dd976551101f5bb0efe153af93</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Scrum Tasks</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_scope_delete display_value="">46a4f9af8f0048e79645e478abb4f429</sys_scope_delete>
+        <sys_update_name>sys_app_module_b119a1dd976551101f5bb0efe153af93</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b119a1dd976551101f5bb0efe153af93">fdd9a91197a551101f5bb0efe153af48</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 10:23:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

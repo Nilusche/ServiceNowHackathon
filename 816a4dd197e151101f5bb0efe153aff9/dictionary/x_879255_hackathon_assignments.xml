@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Sprints" max_length="40" name="x_879255_hackathon_assignments" type="collection">
-        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+    <element label="Scrum Task" max_length="40" name="x_879255_hackathon_assignments" type="collection">
+        <element label="Assigned to" mandatory="true" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="Bug" max_length="32" name="bug" reference="x_879255_hackathon_bugs" type="reference"/>
         <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
         <element label="Due date" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
