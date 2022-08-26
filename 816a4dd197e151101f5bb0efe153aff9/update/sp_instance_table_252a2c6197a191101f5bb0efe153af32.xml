@@ -5,8 +5,9 @@
         <color>default</color>
         <css/>
         <display_field/>
-        <field_list>number,priority,bug_project,status</field_list>
-        <filter/>
+        <field_list>name,project,status,bug</field_list>
+        <filter table="x_879255_hackathon_assignments">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
         <glyph/>
         <id/>
         <maximum_entries>5</maximum_entries>
@@ -16,25 +17,25 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">5724d4e9972191101f5bb0efe153af18</sp_column>
-        <sp_page display_value="wb_bug_page">644d8825972191101f5bb0efe153afe4</sp_page>
+        <sp_column display_value="1">67f9686197a191101f5bb0efe153af70</sp_column>
+        <sp_page/>
         <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
         <sys_class_name>sp_instance_table</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-25 22:13:53</sys_created_on>
-        <sys_id>2f7c4ce1972191101f5bb0efe153af79</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Recent Bugs</sys_name>
+        <sys_created_on>2022-08-26 00:23:27</sys_created_on>
+        <sys_id>252a2c6197a191101f5bb0efe153af32</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My recent Scrum Tasks</sys_name>
         <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
-        <sys_update_name>sp_instance_table_2f7c4ce1972191101f5bb0efe153af79</sys_update_name>
+        <sys_update_name>sp_instance_table_252a2c6197a191101f5bb0efe153af32</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-25 23:12:36</sys_updated_on>
-        <table>x_879255_hackathon_bugs</table>
-        <title>Recent Bugs</title>
+        <sys_updated_on>2022-08-26 00:25:03</sys_updated_on>
+        <table>x_879255_hackathon_assignments</table>
+        <title>My recent Scrum Tasks</title>
         <url/>
         <widget_parameters/>
     </sp_instance_table>
-    <sys_translated_text action="delete_multiple" query="documentkey=2f7c4ce1972191101f5bb0efe153af79"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=252a2c6197a191101f5bb0efe153af32"/>
 </record_update>

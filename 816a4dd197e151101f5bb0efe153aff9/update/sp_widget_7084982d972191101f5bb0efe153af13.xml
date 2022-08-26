@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spUtil, $rootScope) {
+  /* widget controller */
+  var c = this;
+	c.submitting = false;
+	c.submit = function(){
+		if(c.data.newTask.name == "" ||
+			c.data.newTask.desc == "" ||
+			 c.data.newTask.expense == "" ||
+			 c.data.newTask.start_date == "" ||
+			 c.data.newTask.end_date == "" ||
+			  c.data.newTask.project == "" ||
+			 c.data.newTask.assignedto == "" ||
+			 c.data.newTask.bug == "" 
+			){
+			spUtil.addErrorMessage("All the fields must be filled");
+			return;
+			 }
+
+		
+		console.log(c.data.newTask.start_date);
+		console.log(c.data.newTask.end_date);
+	
+		c.data.action = "createBug";
+		c.submitting = true;
+		c.server.update().then(function(){
+			c.submitting = false;
+			spUtil.addInfoMessage(c.data.message);
+		})
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>create_scrumtask</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Create ScrumTask</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.newTask = {
+		name:"",
+		desc:"",
+		expense: "",
+		start_date: "",
+		end_date: "",
+		project: "",
+		assignedto: "",
+		bug: ""
+	}
+	
+	//data.items = new global.PortalUtils().getProjects();
+  data.bugs = new global.PortalUtils().getBugs();
+	data.project = new global.PortalUtils().getProjects();
+	data.users = new global.PortalUtils().getUsers();
+	//Create new bug
+	if(input && input.action =="createBug"){
+		
+		var before = new GlideDateTime(data.start_date);
+		var after = new GlideDateTime(data.end_date);
+		var isPast = taskutils.isDatePast(data.start_date);
+		data.start_date = before;
+		data.end_date = after;
+		var proceed=true;
+		var taskutils = new TaskUtils();
+
+
+		// If the isDatePast method returns true, the date is in the past.
+		if(isPast == true){
+			 data.message = "Start date cannot be in the past.  Your Task has not been saved to the database.";
+				proceed = false;
+		}
+		if(proceed){
+			new global.PortalUtils().createScrumTask(input.newTask);
+			data.message = "A Scrum Task has been created";
+		}
+		
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 22:48:54</sys_created_on>
+        <sys_id>7084982d972191101f5bb0efe153af13</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Create ScrumTask</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sp_widget_7084982d972191101f5bb0efe153af13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 00:21:19</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-warning mt-4">
+  <div class="panel-heading">
+       <h4 class="panel-title">
+         Submit a Scrum Task
+    </h4>
+  </div>
+  <div class="panel-body">
+    <form>
+      <div class="form-group">
+        <label for="name">Name*</label>
+        <input type="text" class="form-control" id="name" 
+               ng-model="data.newTask.name" placeholder=""/>
+      </div>
+
+      <div class="form-group">
+        <label for="desc">Description*</label>
+       	<textarea id="esc" class="form-control" 
+                  ng-model="data.newTask.desc" >
+        </textarea>
+      </div>
+      <div class="form-group">
+        <label for="status">Status*</label>
+        <select id="status" class="form-control" 
+                ng-model="data.newTask.status">
+          <option value="1" selected>Draft</option>
+          <option value="2">In progress</option>
+          <option value="3">Resolved</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="expense">Expense*</label>
+        <input type="number" class="form-control" id="expense" 
+               ng-model="data.newTask.expense" placeholder=""/>
+      </div>
+      
+      <div class="form-group">
+        <label for="start_date">Start Date*</label>
+        <input type="date" class="form-control" id="start_date" 
+               ng-model="data.newTask.start_date" placeholder=""/>
+      </div>
+      
+      <div class="form-group">
+        <label for="end_date">End Date*</label>
+        <input type="date" class="form-control" id="end_date" 
+               ng-model="data.newTask.end_date" placeholder=""/>
+      </div>
+
+      <div class="form-group">
+        <label for="project">Project*</label>
+        <select id="project" class="form-control" 
+                ng-model="data.newTask.project"
+                >
+          <option ng-repeat="p in data.project" ng-value="p.sys_id">{{p.number}} | {{p.name}} </option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="assignedto">Assigned to*</label>
+        
+        <select id="assignedto" class="form-control" 
+                ng-model="data.newTask.assignedto"
+                >
+          <option ng-repeat="p in data.users" ng-value="p.sys_id">{{p.name}} | {{p.email}} </option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="bug">Bug*</label>
+        <select id="bug" class="form-control" 
+                ng-model="data.newTask.bug"
+                >
+          <option ng-repeat="p in data.bugs" ng-value="p.sys_id">{{p.number}} | {{p.name}}</option>
+        </select>
+      </div>
+    </form>
+  </div>
+  
+  <div class="panel-footer">
+    <button class="btn btn-warning" ng-click="c.submit()" ng-disabled="c.submitting">
+      Submit
+    </button>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -16,12 +16,14 @@
 			){
 			 spUtil.addErrorMessage("All the fields must be filled");
 			 }
-	
+		console.log(c.data.newBug.project);
 		c.data.action = "createBug";
 		c.submitting = true;
 		c.server.update().then(function(){
 			c.submitting = false;
 			spUtil.addInfoMessage(c.data.message);
+			
+			
 		})
 	}
 };]]></client_script>
@@ -66,14 +68,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-25 20:17:10</sys_created_on>
         <sys_id>86c13b9997ad51101f5bb0efe153afb3</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_name>Create Bug</sys_name>
         <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
         <sys_update_name>sp_widget_86c13b9997ad51101f5bb0efe153afb3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-25 21:52:56</sys_updated_on>
+        <sys_updated_on>2022-08-25 23:25:32</sys_updated_on>
         <template><![CDATA[<div class="panel panel-danger mt-4">
   <div class="panel-heading">
        <h4 class="panel-title">
@@ -95,7 +97,7 @@
       <div class="form-group">
         <label for="bug_topic">Topic*</label>
         <input type="text" class="form-control" id="bug_topic" 
-               ng-model="data.newBug.topic" placeholder="Styling"/>
+               ng-model="data.newBug.topic"/>
       </div>
       <div class="form-group">
         <label for="bug_desc">Description*</label>
@@ -128,7 +130,7 @@
         <select id="bug_prio" class="form-control" 
                 ng-model="data.newBug.project"
                 >
-          <option ng-repeat="p in data.items">{{p.sys_id}}.{{p.number}} </option>
+          <option ng-repeat="p in data.items" ng-value="p.sys_id">{{p.number}}|{{p.name}} </option>
         </select>
       </div>
     </form>

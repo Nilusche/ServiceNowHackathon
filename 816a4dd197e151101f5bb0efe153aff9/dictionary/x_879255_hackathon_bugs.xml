@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="task" label="Bugs" max_length="40" name="x_879255_hackathon_bugs" sizeclass="1" type="collection">
-        <element label="project" max_length="32" name="bug_project" reference="x_879255_hackathon_projects" type="reference"/>
         <element label="Topic" mandatory="true" max_length="40" name="bug_topic" type="string"/>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Project" mandatory="true" max_length="32" name="project" reference="x_879255_hackathon_projects" type="reference"/>
