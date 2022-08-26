@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
     <sp_page action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <css>.container &gt; col-lg-12{
- padding:0px;
-  margin:0px;
-  width:100%;
-}</css>
+        <css/>
         <draft>false</draft>
         <dynamic_title_structure/>
-        <id>mb_index</id>
+        <id>mb_create_new_project</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>false</public>
@@ -17,18 +13,18 @@
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-25 18:56:56</sys_created_on>
-        <sys_id>df5f17d5976d51101f5bb0efe153af86</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>mb_index</sys_name>
+        <sys_created_on>2022-08-26 08:18:11</sys_created_on>
+        <sys_id>6fc61261976111101f5bb0efe153af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mb_create_new_project</sys_name>
         <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
-        <sys_update_name>sp_page_df5f17d5976d51101f5bb0efe153af86</sys_update_name>
+        <sys_update_name>sp_page_6fc61261976111101f5bb0efe153af80</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-26 09:08:40</sys_updated_on>
-        <title>index</title>
+        <sys_updated_on>2022-08-26 08:18:11</sys_updated_on>
+        <title>Create new Project</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
-    <sys_translated_text action="delete_multiple" query="documentkey=df5f17d5976d51101f5bb0efe153af86"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6fc61261976111101f5bb0efe153af80"/>
 </record_update>

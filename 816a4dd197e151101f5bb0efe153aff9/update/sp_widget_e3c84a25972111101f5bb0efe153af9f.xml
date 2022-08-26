@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spUtil, $rootScope) {
+  /* widget controller */
+  var c = this;
+	c.submitting = false;
+	c.submit = function(){
+		if(c.data.newProject.name == "" ||
+			c.data.newProject.expense == "" ||
+			 c.data.newProject.deadline == "" ||
+			 c.data.newProject.projectleaders == "" ||
+			 c.data.newProject.users == "" 
+			){
+			 spUtil.addErrorMessage("All the fields must be filled");
+				return;	 
+		}
+		if(c.data.expense < 0){
+			spUtil.addErrorMessage("The expense can not be negative");
+				return;	
+		}
+		
+
+		c.data.action = "createProject";
+		c.submitting = true;
+		c.server.update().then(function(){
+			c.submitting = false;
+			spUtil.addInfoMessage(c.data.message);
+			
+			
+		})
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>create_new_project</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Create new Project</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.newProject = {
+		name:"",
+		expense:"",
+		deadline: "",
+		projectleaders: "",
+		users: ""
+	}
+	
+	data.users = new global.PortalUtils().getDevUsers();
+  data.projectleaders= new global.PortalUtils().getManagerUsers();
+	//Create new bug
+	if(input && input.action =="createProject"){
+		
+		var date = new GlideDateTime(data.deadline);
+		var taskutils = new TaskUtils();
+		var isPast = taskutils.isDatePast(date);
+		var proceed=true;
+		
+		data.message= date;
+
+		// If the isDatePast method returns true, the date is in the past.
+		if(isPast == true){
+			 data.message = "Deadline cannot be in the past.  Your Project has not been saved to the database.";
+			proceed = false;
+		}
+		if(proceed){
+			new global.PortalUtils().createProject(input.newProject);
+			data.message = "A Scrum Task has been created";
+		}
+		
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 07:17:01</sys_created_on>
+        <sys_id>e3c84a25972111101f5bb0efe153af9f</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Create new Project</sys_name>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sp_widget_e3c84a25972111101f5bb0efe153af9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 08:16:32</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-primary mt-4">
+  <div class="panel-heading">
+       <h4 class="panel-title">
+         Create a new Project
+    </h4>
+  </div>
+  <div class="panel-body">
+    <form>
+      <div class="form-group">
+        <label for="name">Name*</label>
+        <input type="text" class="form-control" id="name" 
+               ng-model="data.newProject.name" placeholder=""/>
+      </div>
+
+
+      <div class="form-group">
+        <label for="expense">Expense*</label>
+        <input type="number" class="form-control" id="expense" min="0" 
+               ng-model="data.newProject.expense" placeholder=""/>
+      </div>
+      
+      <div class="form-group">
+        <label for="deadline">Deadline*</label>
+        <input type="date" class="form-control" id="deadline" 
+               ng-model="data.newProject.deadline" placeholder=""/>
+      </div>
+      
+
+      <div class="form-group">
+        <label for="project">Project leader*</label>
+        <select id="project" class="form-control" 
+                ng-model="data.newProject.projectleaders"
+                >
+          <option ng-repeat="p in data.projectleaders" ng-value="p.sys_id">{{p.name}} | {{p.email}} </option>
+        </select>
+      </div>
+
+      
+      <div class="form-group">
+        <label for="users">Participants*</label>
+        <select id="users" multiple class="form-control" 
+                ng-model="data.newProject.users"
+                >
+          <option ng-repeat="p in data.users" ng-value="p.sys_id">{{p.name}} | {{p.email}}</option>
+        </select>
+      </div>
+    </form>
+  </div>
+  
+  <div class="panel-footer">
+    <button class="btn btn-primary" ng-click="c.submit()" ng-disabled="c.submitting">
+      Submit
+    </button>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

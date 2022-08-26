@@ -23,7 +23,7 @@
 		console.log(c.data.newTask.start_date);
 		console.log(c.data.newTask.end_date);
 	
-		c.data.action = "createBug";
+		c.data.action = "createTask";
 		c.submitting = true;
 		c.server.update().then(function(){
 			c.submitting = false;
@@ -63,17 +63,18 @@
 	//data.items = new global.PortalUtils().getProjects();
   data.bugs = new global.PortalUtils().getBugs();
 	data.project = new global.PortalUtils().getProjects();
-	data.users = new global.PortalUtils().getUsers();
+	data.users = new global.PortalUtils().getDevUsers();
 	//Create new bug
-	if(input && input.action =="createBug"){
+	if(input && input.action =="createTask"){
 		
 		var before = new GlideDateTime(data.start_date);
 		var after = new GlideDateTime(data.end_date);
+		var taskutils = new TaskUtils();
 		var isPast = taskutils.isDatePast(data.start_date);
 		data.start_date = before;
 		data.end_date = after;
 		var proceed=true;
-		var taskutils = new TaskUtils();
+		
 
 
 		// If the isDatePast method returns true, the date is in the past.
@@ -93,14 +94,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-25 22:48:54</sys_created_on>
         <sys_id>7084982d972191101f5bb0efe153af13</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>Create ScrumTask</sys_name>
         <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
         <sys_update_name>sp_widget_7084982d972191101f5bb0efe153af13</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-26 00:21:19</sys_updated_on>
+        <sys_updated_on>2022-08-26 08:09:02</sys_updated_on>
         <template><![CDATA[<div class="panel panel-warning mt-4">
   <div class="panel-heading">
        <h4 class="panel-title">

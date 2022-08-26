@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>primary</color>
+        <css>.sp-tagline-color{
+ color: white;
+}</css>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6045e35d976d51101f5bb0efe153af3d</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 19:24:07</sys_created_on>
+        <sys_id>c1a56f5d976d51101f5bb0efe153affc</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_update_name>sp_instance_ais_c1a56f5d976d51101f5bb0efe153affc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:04:10</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "{color:'white'}",
+		"displayValue": "{color:'white'}"
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=c1a56f5d976d51101f5bb0efe153affc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sp_instance_ais_c1a56f5d976d51101f5bb0efe153affc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css&gt;.sp-tagline-color{
+ color: white;
+}&lt;/css&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;placeholder/&gt;&lt;roles/&gt;&lt;search_application/&gt;&lt;search_results_configuration/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;6045e35d976d51101f5bb0efe153af3d&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-25 19:24:07&lt;/sys_created_on&gt;&lt;sys_id&gt;c1a56f5d976d51101f5bb0efe153affc&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon"&gt;816a4dd197e151101f5bb0efe153aff9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Projektmanagement Tool"&gt;816a4dd197e151101f5bb0efe153aff9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_c1a56f5d976d51101f5bb0efe153affc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-26 09:04:10&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "{color:'white'}",
+		"displayValue": "{color:'white'}"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c1a56f5d976d51101f5bb0efe153affc"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1245013147</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>28a35bd9972d51101f5bb0efe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 09:04:10</sys_created_on>
+        <sys_id>1151662d976111101f5bb0efe153afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d964fcca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:04:10</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>1951662d9f611110aae8ac781de9b0d9</update_guid>
+        <update_guid_history>1951662d9f611110aae8ac781de9b0d9:1245013147,2d4126e908611110fd8ab6d4f54fc691:1395953242,fd10e6a992611110c2d7700401af1c41:-1630202255,17efd6a9c761111060904f038385103d:1395953242,212dd229dd61111055dcceee4d550fba:1250674924,9f0ddee5a061111023c9057533e009e3:876679758,36ec9ee55961111003c705145b0bdd92:1490106648,8a0716a15e6111100521bfdfcc2c203c:-2142660976,e790735936ad51108ea6d6ce3480ce9c:-2057502424,aeefeb1977ad51107de7dba1f2a55f41:1593040198,4a9f2319c8ad511081840c2ddc415fdf:1347774085,034f231943ad5110c85be1f3d1b1b9c8:-1799289597,409ea7d5f9ad51109b6c4cd517ca2152:-307094259,09a56f5d5a6d5110026f603a2c17f6fd:2022282614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9e51262d976111101f5bb0efe153af74</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 09:04:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>439a7489763d4a4097b72bd4ab881000</sys_id>
+        <sys_metadata>c1a56f5d976d51101f5bb0efe153affc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
+        <sys_scope_delete display_value="">46a4f9af8f0048e79645e478abb4f429</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_c1a56f5d976d51101f5bb0efe153affc</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_c1a56f5d976d51101f5bb0efe153affc">1151662d976111101f5bb0efe153afda</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:04:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

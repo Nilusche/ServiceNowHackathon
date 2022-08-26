@@ -15,7 +15,8 @@
 			 c.data.newBug.project == "" 
 			){
 			 spUtil.addErrorMessage("All the fields must be filled");
-			 }
+			return;	 
+		}
 		console.log(c.data.newBug.project);
 		c.data.action = "createBug";
 		c.submitting = true;
@@ -68,14 +69,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-25 20:17:10</sys_created_on>
         <sys_id>86c13b9997ad51101f5bb0efe153afb3</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_name>Create Bug</sys_name>
         <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
         <sys_update_name>sp_widget_86c13b9997ad51101f5bb0efe153afb3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-25 23:25:32</sys_updated_on>
+        <sys_updated_on>2022-08-26 07:52:41</sys_updated_on>
         <template><![CDATA[<div class="panel panel-danger mt-4">
   <div class="panel-heading">
        <h4 class="panel-title">
