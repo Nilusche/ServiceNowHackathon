@@ -64,7 +64,7 @@
 		
 		var date = new GlideDateTime(data.deadline);
 		var taskutils = new TaskUtils();
-		var isPast = taskutils.isDatePast(date);
+		var isPast = taskutils.isDatePast(data.deadline);
 		var proceed=true;
 		
 		data.message= date;
@@ -86,14 +86,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-26 07:17:01</sys_created_on>
         <sys_id>e3c84a25972111101f5bb0efe153af9f</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Create new Project</sys_name>
         <sys_package display_value="Projektmanagement Tool" source="x_879255_hackathon">816a4dd197e151101f5bb0efe153aff9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Projektmanagement Tool">816a4dd197e151101f5bb0efe153aff9</sys_scope>
         <sys_update_name>sp_widget_e3c84a25972111101f5bb0efe153af9f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-26 08:16:32</sys_updated_on>
+        <sys_updated_on>2022-08-26 11:08:23</sys_updated_on>
         <template><![CDATA[<div class="panel panel-primary mt-4">
   <div class="panel-heading">
        <h4 class="panel-title">
